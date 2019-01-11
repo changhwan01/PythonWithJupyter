@@ -46,35 +46,32 @@ Shift-Space : scroll up
 Shift : ignore
 
 Edit Mode (press Enter to enable)
+----
+Tab : code completion or indent
+Shift-Tab : tooltip
+Ctrl-] : indent
+Ctrl-[ : dedent
+Ctrl-A : select all
+Ctrl-Z : undo
+Ctrl-Shift-Z : redo
+Ctrl-Y : redo
+Ctrl-Home : go to cell start
+Ctrl-Up : go to cell start
+Ctrl-End : go to cell end
+Ctrl-Down : go to cell end
+Ctrl-Left : go one word left
+Ctrl-Right : go one word right
+Ctrl-Backspace : delete word before
+Ctrl-Delete : delete word after
+Esc : command mode
+Ctrl-M : command mode
+Shift-Enter : run cell, select below
+Ctrl-Enter : run cell
+Alt-Enter : run cell, insert below
+Ctrl-Shift-Subtract : split cell
+Ctrl-Shift-- : split cell
+Ctrl-S : Save and Checkpoint
+Up : move cursor up or previous cell
+Down : move cursor down or next cell
+Shift : ignore
 
-    Tab : code completion or indent
-    Shift-Tab : tooltip
-    Ctrl-] : indent
-    Ctrl-[ : dedent
-    Ctrl-A : select all
-    Ctrl-Z : undo
-    Ctrl-Shift-Z : redo
-    Ctrl-Y : redo
-    Ctrl-Home : go to cell start
-    Ctrl-Up : go to cell start
-    Ctrl-End : go to cell end
-    Ctrl-Down : go to cell end
-    Ctrl-Left : go one word left
-    Ctrl-Right : go one word right
-    Ctrl-Backspace : delete word before
-    Ctrl-Delete : delete word after
-    Esc : command mode
-    Ctrl-M : command mode
-    Shift-Enter : run cell, select below
-    Ctrl-Enter : run cell
-    Alt-Enter : run cell, insert below
-    Ctrl-Shift-Subtract : split cell
-    Ctrl-Shift-- : split cell
-    Ctrl-S : Save and Checkpoint
-    Up : move cursor up or previous cell
-    Down : move cursor down or next cell
-    Shift : ignore
-
-
-
-출처: http://ljs93kr.tistory.com/54 [건프의 소소한 개발이야기]
